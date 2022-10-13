@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\Request;
-use app\Models\Caminhao;
+use App\Models\Caminhao;
 
 class CaminhaoController extends Controller
 {
@@ -26,7 +26,7 @@ class CaminhaoController extends Controller
             'valor' => 'string|nullable',
         ]);
 
-        caminhao::create($dadosCaminhao);
+        Caminhao::create($dadosCaminhao);
 
         return Redirect::route('home');
     
