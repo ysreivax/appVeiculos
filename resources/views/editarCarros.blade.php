@@ -42,22 +42,22 @@
     <tbody>
       <tr class="consultartr2">
         <th scope="row"><img src="img/user4.jpg" width="65" height="65" /></th>
-        <td>V8</td>
-        <td>Scania</td>
-        <td>vermelho</td>
+        <td>Compass</td>
+        <td>Jeep</td>
+        <td>Cinza</td>
         <td>2021</td>
-        <td>700.660.06</td>
+        <td>120000</td>
         <td> <a href="#!" class="listarbotao1 btn btn-primary bg-black"> Editar </a></td>
         <td> <a href="#!" class="listarbotao2 btn btn-primary bg-black"> Excluir </a></td>
         
       </tr>
       <tr class="consultartr2">
         <th scope="row"><img src="img/user4.jpg" width="65" height="65" /></th>
-        <td>Linha R</td>
-        <td>Scania</td>
+        <td>Q8</td>
+        <td>Audi</td>
         <td>Azul</td>
-        <td>2019</td>
-        <td>520.101.00</td>
+        <td>2021</td>
+        <td>12000</td>
 
         <td> <a href="#!" class="listarbotao1 btn btn-primary bg-black"> Editar </a></td>
         <td> <a href="#!" class="listarbotao2 btn btn-primary bg-black"> Excluir </a></td>

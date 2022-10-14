@@ -1,0 +1,336 @@
+
+/* <><><><><><><><><><><><><><><><><><><><><><><> HOME <><><><><><><><><><><><><><><><><><><><><><><><><><><> */
+
+
+.bodyhome{
+    background-color: black;
+}
+
+/* -------------------------------------- CSS DA CALHA 1 e 2 ----------------------------------------------- */
+
+.homefooter1{
+background-color: black;
+}
+
+.row{
+    background-color: black;
+}
+
+.col{
+    margin-top: 6cm;
+    margin-bottom: 1cm; 
+}
+
+.p-2{
+    margin-top: 1cm;
+    color: brown;
+
+}
+
+/* -------------------------------------- FIM DO CSS DA CALHA 1 e 2 ----------------------------------------- */
+
+
+/* -------------------------------------- CSS DO SPACING 1 e 2 ---------------------------------------------- */
+
+.homefooter2{
+    background-color: black;
+    }
+
+.homep3{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+/* -------------------------------------- FIM DO CSS DO SPACING 1 e 2 ------------------------------------- */
+
+
+/* ------------------------------------------ CSS DO COLUMS 1 e 2 ----------------------------------------- */
+
+.homefooter3{
+    background-color: black;
+}
+
+.clearfix{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.homep1{
+    margin-left: 2cm;
+    font-size: 15px;
+    
+}
+
+.homep2{
+    margin-left: 2cm;
+    font-size: 15px;
+    
+}
+
+.homep9{
+    margin-left: 2cm;
+    font-size: 15px;
+    margin-bottom: 2cm;
+    
+}
+
+.col-md-6{
+    margin-right: 2cm;
+}
+
+/* --------------------------------------- FIM CSS DO COLUMS 1 e 2 ----------------------------------------- */
+
+
+/* ----------------------------------------- CSS DO CLEARFIX 1 e 2 ----------------------------------------- */
+
+.homep4{
+    color: brown;
+    margin-left: 0.1cm;
+    margin-top: 0.3cm;
+    margin-right: 0.1cm;
+}
+
+/* ------------------------------------- FIM CSS DO CLEARFIX 1 e 2 ---------------------------------------- */
+
+
+/* ----------------------------------------- CSS DO CARD 1 e 2 -------------------------------------------- */
+
+.homefooter4{
+    background-color: black;
+    border-color: aliceblue;
+}
+
+.card-title{
+    margin-bottom: 2cm;
+    color: brown;
+    font-size: 35px;
+    margin-top: 1cm;
+    
+}
+
+.card-text{
+    color: aliceblue;
+    margin-top: 0.5cm;
+    font-size: 20px;
+}
+
+/* --------------------------------------- FIM CSS DO CARD 1 e 2 --------------------------------------- */
+
+
+/* -------------------------------------- CSS DO SEPARADOR 1,2,3 e 4 ----------------------------------- */
+
+.homep5{
+    font-size: 30px;
+    color: transparent;
+}
+
+/* ---------------------------------- FIM CSS DO SEPARADOR 1,2,3 e 4 ---------------------------------- */
+
+
+/* ---------------------------------- CSS DO AGRADECIMENTO 1  ----------------------------------------- */
+
+
+.homefooter5{
+    background-color: black;
+}
+
+.homep6{
+    color: transparent;
+}
+
+.homefooter7{
+    margin-top: 0.2cm;
+    margin-bottom: 0.2cm;
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    background-color: black;
+   
+}
+
+.homep7{
+    font-size: 18px;
+    color: brown;
+    font-family: arial;
+}
+
+.homefooter6{
+    background-color:aliceblue;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: 0.5px;
+    color: transparent;
+
+}
+
+.homefooter8{
+    margin-top: 0.1cm;
+    margin-bottom: 0.1cm;
+    margin-left: 0.3cm;
+    margin-right: 0.3cm;
+    background-color: black;
+    color: transparent;
+}
+
+/* ---------------------------------- FIM CSS DO AGRADECIMENTO 1 ------------------------------------------- */
+
+
+
+/* <><><><><><><><><><><><><><><><><><><><><><><> FIM DA HOME <><><><><><><><><><><><><><><><><><><><><><><> */
+
+
+
+
+
+
+
+/* <><><><><><><><><><><><><><><><><><><><><> CADASTRO DE CAMINHOES <><><><><><><><><><><><><><><><><><><><><><> */
+
+.bodycadastrocaminhoes{
+    background-color:  black;
+}
+
+/* -------------------------------------- CSS DA CALHA 1 e 2 ----------------------------------------------- */
+
+.cadastrofooter4{
+    background-color: black;
+    }
+    
+    .row{
+        background-color: black;
+    }
+    
+    .col{
+        margin-top: 6cm;
+        margin-bottom: 1cm; 
+    }
+    
+    .p-2{
+        margin-top: 1cm;
+        color: brown;
+    
+    }
+    
+/* -------------------------------------- FIM DO CSS DA CALHA 1 e 2 ----------------------------------------- */
+
+
+/* -------------------------------------- CSS DO SPACING  --------------------------------------------------- */
+
+.cadastrofooter5{
+    background-color: black;
+    }
+
+.cadastrop3{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+/* -------------------------------------- FIM DO CSS DO SPACING --------------------------------------------- */
+
+
+/* ----------------------------------------- CSS DE VALIDAÇÃO ----------------------------------------------- */
+
+.cadastrofooter1{
+    background-color: black;
+}
+
+.cadastrofooter2{
+    background-color: aliceblue;
+    margin-top: 4cm;
+    margin-bottom: 4cm;
+    margin-left: 6cm;
+    margin-right: 6cm;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.cadastrofooter3{
+    background-color: black;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.cadastroform1{
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.cadastrop1{
+    font-size: 1px;
+    color: transparent;
+}
+
+.cadastrotexto{
+    margin-left: 5cm;
+    color: brown;
+    font-family: arial;
+
+}
+
+.cadastrobotao{
+    margin-left: 11.8cm;
+    background-color: brown;
+}
+
+.cadastroaceito{
+    margin-left: 2cm;
+}
+
+.cadastronovidades{
+    margin-right: 12cm;
+    color: brown;
+    font-family: arial;
+}
+
+/* -------------------------------------- FIM DO CSS DE VALIDAÇÃO ------------------------------------------- */
+
+/* <><><><><><><><><><><><><><><><><><><><> FIM DO CADASTRO DE CAMINHOES <><><><><><><><><><><><><><><><><><><><> */
+
+/* <><><><><><><><><><><><><><><><><><><><><> CONSULTAR DE CAMINHOES <><><><><><><><><><><><><><><><><><><><><><> */
+
+.bodyconsultar{
+    background-color: black;
+}
+
+/* -------------------------------------------- CSS DA LISTA --------------------------------------------------- */
+
+
+.consultartr1{
+    color: brown;
+    font-size: 25px;
+    font-family: arial;
+}
+.consultartr2{
+    color: aliceblue;
+}
+
+.listarbotao1{
+    background-color: brown;
+    color: green;
+}
+
+.Consultartable{
+    font-size: 30px;
+}
+
+/* ---------------------------------------- FIM DO CSS DA LISTA --------------------------------------------- */
+
+
