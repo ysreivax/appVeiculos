@@ -32,43 +32,31 @@
         <th scope="col">User</th>
         <th scope="col">Modelo</th>
         <th scope="col">Marca</th>
-        <th scope="col">Cor</th>
         <th scope="col">Ano</th>
-        <th scope="col">Valor</th>
         <th scope="col">Editar</th>
         <th scope="col">Excluir</th>
       </tr>
     </thead>
     <tbody>
+    @foreach($registrosCarros as $registrosCarros)
       <tr class="consultartr2">
-        <th scope="row"><img src="img/user4.jpg" width="65" height="65" /></th>
-        <td>Compass</td>
-        <td>Jeep</td>
-        <td>Cinza</td>
-        <td>2021</td>
-        <td>120000</td>
+        <th scope="row">{{$registrosCarros->id}}</th>
+        <td>{{$registrosCarros->modelo}}</td>
+        <td>{{$registrosCarros->marca}}</td>
+        <td>{{$registrosCarros->ano}}</td>
         <td> <a href="#!" class="listarbotao1 btn btn-primary bg-black"> Editar </a></td>
         <td> <a href="#!" class="listarbotao2 btn btn-primary bg-black"> Excluir </a></td>
         
       </tr>
-      <tr class="consultartr2">
-        <th scope="row"><img src="img/user4.jpg" width="65" height="65" /></th>
-        <td>Q8</td>
-        <td>Audi</td>
-        <td>Azul</td>
-        <td>2021</td>
-        <td>12000</td>
 
-        <td> <a href="#!" class="listarbotao1 btn btn-primary bg-black"> Editar </a></td>
-        <td> <a href="#!" class="listarbotao2 btn btn-primary bg-black"> Excluir </a></td>
-       
-      </tr>
-  
+      @endforeach
+
     </tbody>
+
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
-    <p class="cadastrop1">oiiiboiiiiiiiiiiiiiiii</p>
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
-    <p class="cadastrop1">oiiiboiiiiiiiiiiiiiiii</p>
+    <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
+    <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
   </table>
   
