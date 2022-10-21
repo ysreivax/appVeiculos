@@ -20,6 +20,20 @@ class CaminhaoController extends Controller
         return view('editarCaminhao',['registrosCaminhao' => $dadosCaminhao]);
     }
 
+    public function MostrarAlterarCaminhao(Caminhao $registrosCaminhoes){
+
+        return view('alterarCaminhao',['registrosCaminhoes' => $registrosCaminhoes]);
+    }
+
+    
+    public function ApagarBancoCaminhao(Caminhao $registrosCaminhoes){
+        $registrosCaminhoes->delete();
+
+       return Redirect::route('editar-caminhao');
+
+    }
+
+
     public function SalvarBanco(Request $request){
 
         $dadosCaminhao = $request->validate([

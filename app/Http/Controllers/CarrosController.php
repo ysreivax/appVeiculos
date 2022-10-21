@@ -19,6 +19,13 @@ class CarrosController extends Controller
         return view('editarCarros',['registrosCarros' => $dadosCarros]);
     }
 
+    public function ApagarBancoCarros(Carros $registrosCarros){
+        $registrosCarros->delete();
+
+       return Redirect::route('editar-carros');
+
+    }
+
     public function SalvarBancoCarros(Request $request){
 
         $dadosCarros = $request->validate([
