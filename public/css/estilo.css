@@ -333,4 +333,66 @@ background-color: black;
 
 /* ---------------------------------------- FIM DO CSS DA LISTA --------------------------------------------- */
 
+.editarfooter1{
+    background-color: black;
+}
 
+.editarfooter2{
+    background-color: aliceblue;
+    margin-top: 4cm;
+    margin-bottom: 4cm;
+    margin-left: 6cm;
+    margin-right: 6cm;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.editarfooter3{
+    background-color: black;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.editarform1{
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.editarp1{
+    font-size: 1px;
+    color: transparent;
+}
+
+.editartexto{
+    margin-left: 5cm;
+    color: brown;
+    font-family: arial;
+
+}
+
+.editarbotao{
+    margin-left: 11.8cm;
+    background-color: brown;
+}
+
+.editaraceito{
+    margin-left: 2cm;
+}
+
+.editarnovidades{
+    margin-right: 12cm;
+    color: brown;
+    font-family: arial;
+}
+
+.pesquisar {
+
+    float: right;
+
+    margin: 2%;
+
+}

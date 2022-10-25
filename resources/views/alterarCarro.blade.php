@@ -1,9 +1,8 @@
 @extends('padrao')
 @section('content')
 
-<link rel="stylesheet" href="css/estilo.css">
 <!-- --------------------------------------------- CALHA 1 -------------------------------------------------- -->
-<body class="bodyeditar">
+
 <footer class="cadastrofooter4">
   <div class="container px-1 text-center">
     <div class="row gx-5">
@@ -24,7 +23,7 @@
 
  <footer class="cadastrofooter5">
     <div class="d-grid gap-6">
-      <div class="cadastrop3 p-3 bg-black border text-center">NOS INFORME SEU MODELO FAVORITO DE CAMINHÃO</div>
+      <div class="cadastrop3 p-3 bg-black border text-center">NOS INFORME SEU MODELO FAVORITO DE CARROS</div>
     </div>
     </footer>
 
@@ -41,12 +40,12 @@
 
         <footer class="cadastrofooter3">
     <footer class="cadastrofooter4 text-center">
- <form class="cadastroform1 text-center" method="post" action="{{route('alterar-banco-caminhao',$registrosCaminhoes->id)}}">
+ <form class="cadastroform1 text-center" method="post" action="{{route('alterar-banco-carro',$registrosCarros->id)}}">
 
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
-    <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
+    <p class="cadastrop1">oiiiboiiiiiiiiiiiiiiii</p>
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
     
     @csrf
@@ -55,7 +54,7 @@
     <div class="row mb-3">
       <label class="cadastrotexto col-sm-2 col-form-label">Modelo</label>
       <div class="col-sm-5">
-        <input  name="modelo" value="{{old('modelo', $registrosCaminhoes->modelo)}}" class="email form-control bg-light" id="inputModelo" placeholder="V8">
+        <input  name="modelo" value="{{old('modelo', $registrosCarros->modelo)}}" class="email form-control bg-light" placeholder="Fusca">
         @error('modelo')
         <div class="text-sm-start text-alight" >Preencher o campo modelo.</div>
         @enderror
@@ -64,7 +63,7 @@
     <div class="row mb-3">
         <label class="cadastrotexto col-sm-2 col-form-label">Marca</label>
         <div class="col-sm-5">
-          <input name="marca" value="{{old('marca', $registrosCaminhoes->marca)}}" class="email form-control bg-light" id="inputMarca" placeholder="Scania">
+          <input name="marca" value="{{old('marca', $registrosCarros->marca)}}" class="email form-control bg-light" id="inputPassword3" placeholder="BMW">
           @error('marca')
         <div class="text-sm-start text-alight" >Preencher o campo marca.</div>
         @enderror
@@ -73,7 +72,7 @@
       <div class="row mb-3">
         <label class="cadastrotexto col-sm-2 col-form-label">Ano</label>
         <div class="col-sm-5">
-          <input name="ano" value="{{old('ano', $registrosCaminhoes->ano)}}" class="email form-control bg-light" id="inputAno" placeholder="2021">
+          <input name="ano" value="{{old('ano', $registrosCarros->ano)}}" class="email form-control bg-light"   placeholder="2000">
           @error('ano')
         <div class="text-sm-start text-alight" >Preencher o campo ano.</div>
         @enderror
@@ -82,7 +81,7 @@
       <div class="row mb-3">
         <label class="cadastrotexto col-sm-2 col-form-label">Cor</label>
         <div class="col-sm-5">
-          <input name="cor" value="{{old('cor', $registrosCaminhoes->cor)}}" class="email form-control bg-light" id="inputCor" placeholder="vermelho">
+          <input name="cor" value="{{old('cor', $registrosCarros->cor)}}" class="email form-control bg-light" placeholder="02569-9874">
           @error('cor')
         <div class="text-sm-start text-alight" >Preencher o campo cor.</div>
         @enderror
@@ -91,9 +90,9 @@
       <div class="row mb-3">
         <label class="cadastrotexto col-sm-2 col-form-label">Valor</label>
         <div class="col-sm-5">
-          <input name="valor"  value="{{old('valor', $registrosCaminhoes->valor)}}"class="email form-control bg-light" id="inputValor" placeholder="700.660,23">
-          @error('valor')
-        <div class="text-sm-start text-alight" >Preencher o campo valor.</div>
+          <input name="valor"   value="{{old('valor', $registrosCarros->cor)}}" class="email form-control bg-light" placeholder="25.660,23">
+          @error('Valor')
+        <div class="text-sm-start text-alight" >Preencher o campo cor.</div>
         @enderror
         </div>
       </div>
@@ -108,7 +107,7 @@
       </div>
     </div>
 
-    <button type="submit" class="cadastrobotao btn btn-danger">Atualizar</button>
+    <button type="submit" class="cadastrobotao btn btn-danger">Enviar</button>
 
     <p class="cadastrop1">oiiiiiiiiiiiiiiiiiii</p>
     <p class="cadastrop1">oiiiboiiiiiiiiiiiiiiii</p>
@@ -125,7 +124,9 @@
 </footer>
 </footer>
 
-<style>
+ <!-- -------------------------------------- FIM DA VALIDAÇÃO ------------------------------------------------ -->
+
+ <style>
   
 /* <><><><><><><><><><><><><><><><><><><><><><><> HOME <><><><><><><><><><><><><><><><><><><><><><><><><><><> */
 
@@ -403,4 +404,5 @@ background-color: black;
 
  <!-- -------------------------------------- FIM DA VALIDAÇÃO ------------------------------------------------ -->
  </body>
+
 @endsection
